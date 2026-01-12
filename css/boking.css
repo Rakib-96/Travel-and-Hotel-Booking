@@ -1,0 +1,281 @@
+
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffffff, #4397fd,#ffffff, #73b0fa);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+/*Navigation bar */
+.navbar{
+  height: 20px;
+  background-color: white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 80px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+.navbar nav{
+  padding-top: 20px;
+}
+.logo{
+  padding-top: 15px;
+}
+.navbar nav a{
+  text-decoration: none;
+  font-style: none;
+  margin:0 18px;
+  font-size:14px;
+  cursor:pointer;
+  color:#333;
+}
+.navbar nav a.active{
+  color:#0056b3;
+  border-bottom:2px solid #0056b3;
+}
+.navbar nav a:hover{
+  width: 100%;
+  color:#0056b3;
+}
+
+/* login */
+.auth-nav{
+  display:inline-flex;
+  gap:12px;
+  margin-left:20px;
+}
+
+.auth-btn{
+   
+  padding:7px 16px;
+  border-radius:6px;
+  font-size:13px;
+  text-decoration:none;
+  cursor:pointer;
+  border:1px solid black;
+}
+
+.auth-main{
+  background:#9eb6ef;
+  color:#000000;
+}
+
+.profile-btn{
+  background:#9eb6ef;
+  color:#111;
+  border:1px solid #111;
+  height: 15px;
+}
+
+.logout-btn{
+  background:#f43131;
+  color:#ffffff;
+}
+/* Container for form */
+.booking-container {
+  background:linear-gradient(135deg,#69befb,#ffffff);
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-container:hover {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #1a202c;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Form inputs */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+input, select, button {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e0;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 5px rgba(49, 130, 206, 0.5);
+}
+
+/* Button styling */
+button {
+  background: #3182ce;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #2b6cb0;
+  transform: translateY(-2px);
+}
+
+.title {
+  display: block;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Select box */
+.select-box select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #8fd18f;
+  border-radius: 5px;
+  background-color: #e9fbe9;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+
+/* Custom checkbox */
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkbox span {
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  margin-right: 10px;
+  border-radius: 3px;
+  position: relative;
+}
+
+/* Checked state */
+.checkbox input:checked + span::after {
+  content: "✔";
+  position: absolute;
+  font-size: 12px;
+  left: 1px;
+  top: -2px;
+  color: white;
+}
+
+/* Green checkbox */
+.checkbox.green span {
+  border-color: #000000;
+}
+
+.checkbox.green input:checked + span {
+  background: #009000;
+}
+
+
+
+/* Footer */
+.footer-wrapper{          
+    padding:30px;
+  }
+
+  .footer{
+    background:#ffffff;         
+    border-radius:12px;
+    padding:40px 50px 20px;
+  }
+
+  .footer-top{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap:30px;
+  }
+
+  .footer h4{
+    margin:0 0 14px;
+    font-size:16px;
+    font-weight:600;
+    color:#3b2c2c;
+  }
+
+  .footer p,
+  .footer a{
+    font-size:14px;
+    color:#4b3b3b;
+    text-decoration:none;
+    margin:6px 0;
+    display:block;
+  }
+
+  .footer a:hover{
+    text-decoration:underline;
+  }
+
+  .logo{
+    font-weight:700;
+    font-size:20px;
+    margin-bottom:10px;
+  }
+
+  .divider{
+    height:1px;
+    background:#3b2c2c;
+    opacity:0.5;
+    margin:25px 0 18px;
+  }
+
+  .footer-bottom{
+    text-align:center;
+  }
+
+  .social-icons{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-bottom:12px;
+  }
+
+  .social-icons a{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    border:2px solid #b07b83;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#3b2c2c;
+    font-size:14px;
+  }
+
+  .copyright{
+    font-size:13px;
+    color:#4b3b3b;
+  }
