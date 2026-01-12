@@ -26,8 +26,8 @@ The website is fully responsive and works smoothly on:
 ## 🎯 Purpose
 This project was created to practice frontend web development skills and demonstrate UI design for a real-world travel and hotel booking platform.
 
-## 🔗 Live Demo
-_(Add GitHub Pages link here if deployed)_
+## 🔗 Live Demo ( use username : Demo pssword: 123 to log in)
+ https://rakib-96.github.io/Travel-and-Hotel-Booking/
 
 ## 📌 Future Improvements
 - User authentication
