@@ -22,4 +22,23 @@ The website is fully responsive and works smoothly on:
 - Tablet
 - Mobile devices
 
-## 📂 Project Structure
+
+## 🎯 Purpose
+This project was created to practice frontend web development skills and demonstrate UI design for a real-world travel and hotel booking platform.
+
+## 🔗 Live Demo
+_(Add GitHub Pages link here if deployed)_
+
+## 📌 Future Improvements
+- User authentication
+- Booking system integration
+- Backend & database support
+- Payment gateway integration
+
+## 👨‍💻 Author
+**MG. Rakib**
+
+---
+
+⭐ If you like this project, feel free to star the repository!
+
