@@ -61,13 +61,13 @@
   },
   {
     "id": 7,
-    "name": "Faria Islam",
-    "username": "faria",
-    "email": "faria.islam@gmail.com",
-    "password": "faria123",
+    "name": "Junaki Akter",
+    "username": "junaki",
+    "email": "junaki@gmail.com",
+    "password": "123",
     "age": 21,
     "occupation": "student",
-    "profilepicture": ""
+    "profilepicture": "pictures/dp/women2.jpeg"
   },
   {
     "id": 8,
