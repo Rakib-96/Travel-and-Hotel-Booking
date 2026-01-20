@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Golam Rakib",
+    "username": "Rakib",
+    "email": "mgrakib@gmail.com",
+    "password": "123",
+    "age": 23,
+    "occupation": "student",
+    "profilepicture": "pictures/dp/rakib.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Trishna Rahman",
+    "username": "Trishna",
+    "email": "ayesha.rahman@gmail.com",
+    "password": "ayesha123",
+    "age": 22,
+    "occupation": "student",
+    "profilepicture": "pictures/dp/women1.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Ahmed",
+    "username": "Tanvir",
+    "email": "tanvir.ahmed@gmail.com",
+    "password": "tanvir123",
+    "age": 25,
+    "occupation": "job",
+    "profilepicture": ""
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "username": "Nusrat",
+    "email": "nusrat.jahan@gmail.com",
+    "password": "nusrat123",
+    "age": 24,
+    "occupation": "job",
+    "profilepicture": "pictures/dp/women2.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Sabbir Hossain",
+    "username": "sabbir",
+    "email": "sabbir.hossain@gmail.com",
+    "password": "sabbir123",
+    "age": 26,
+    "occupation": "job",
+    "profilepicture": ""
+  },
+  {
+    "id": 6,
+    "name": "Mehedi Hasan",
+    "username": "mehedi",
+    "email": "mehedi.hasan@gmail.com",
+    "password": "mehedi123",
+    "age": 27,
+    "occupation": "freelancer",
+    "profilepicture": ""
+  },
+  {
+    "id": 7,
+    "name": "Faria Islam",
+    "username": "faria",
+    "email": "faria.islam@gmail.com",
+    "password": "faria123",
+    "age": 21,
+    "occupation": "student",
+    "profilepicture": ""
+  },
+  {
+    "id": 8,
+    "name": "Arif Mahmud",
+    "username": "arif",
+    "email": "arif.mahmud@gmail.com",
+    "password": "arif123",
+    "age": 28,
+    "occupation": "job",
+    "profilepicture": ""
+  },
+  {
+    "id": 9,
+    "name": "Samira Khan",
+    "username": "samira",
+    "email": "samira.khan@gmail.com",
+    "password": "samira123",
+    "age": 24,
+    "occupation": "freelancer",
+    "profilepicture": ""
+  },
+  {
+    "id": 10,
+    "name": "Imran Chowdhury",
+    "username": "Demo",
+    "email": "imran.chowdhury@gmail.com",
+    "password": "123",
+    "age": 29,
+    "occupation": "job",
+    "profilepicture": "pictures/dp/man3.jpeg"
+  }
+]

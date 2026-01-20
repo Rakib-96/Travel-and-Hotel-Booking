@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:linear-gradient(135deg,#fdbe21,#f8e6af);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.auth-container{
+  width:340px;
+  background:#fff;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.auth-container input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+}
+
+.auth-container button{
+  width:100%;
+  padding:10px;
+  background:#f4b000;
+  border:none;
+  font-weight:bold;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+#message, #error{
+  margin-top:10px;
+}
+
+.lgn_btn{
+  text-decoration: none;
+  padding:3px 15px;
+  border:none;
+  background:#f4b000;
+  border-radius: 5px;
+  color:#000000;
+  cursor:pointer;
+  font-size:14px;
+}
+.lgn_btn:hover,.auth-container button:hover{
+  text-decoration: none;
+  color:#ffffff;
+  background :#f48200;
+  transition: all 0.3s ease; 
+}
+
+
+/* Tablets  */
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 20px; 
+  }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 768px) {
+  .auth-container {
+    width: 90%; 
+    max-width: 540px; 
+    padding: 0px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+}

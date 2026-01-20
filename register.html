@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Page</title>
+  <link rel="shortcut icon" href="/pictures/fab.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+<div class="auth-container">
+  <h2>Create Account</h2>
+
+  <input type="text" id="name" placeholder="Full Name" required>
+  <input type="email" id="email" placeholder="Email Address" required>
+  
+  <input type="text" id="username" placeholder="Username" required>
+  <input type="password" id="password" placeholder="Password" required>
+
+  <button onclick="register()">Register</button>
+
+  <p id="message"></p>
+  <p>Already have an account? <a class="lgn_btn" href="login.html">Login</a></p>
+</div>
+
+<script src="JS/register.js"></script>
+</body>
+</html>

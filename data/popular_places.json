@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "image": "/pictures/sajek.jpg",
+    "title": "Shajek Valley, Shajek",
+    "type": "Hill Station",
+    "fun_activities": ["Hill trekking", "Photography", "Sunset viewing", "Camping"],
+    "description": [
+      "Located in Rangamati near the India–Bangladesh border.",
+      "Famous for green hills, winding roads, and floating clouds.",
+      "Mist covers the valley during rainy seasons, creating a dreamlike feel.",
+      "Offers peaceful walks through tribal villages and local lifestyles.",
+      "Renowned for spectacular sunrise and sunset views over endless hills.",
+      "Popular for hill trekking, photography, and open-sky camping.",
+      "Serves traditional hill food alongside popular local dishes.",
+      "Cool weather and calm environment throughout the year.",
+      "Ideal destination for families and couples seeking relaxation."
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/pictures/Sylet.jpg",
+    "title": "Tea Garden, Sunamganj, Sylhet",
+    "type": "Tea Garden",
+    "fun_activities": ["Tea garden walk", "Nature photography", "Village exploration"],
+    "description": [
+      "Features scenic landscapes with rolling hills of endless greenery.",
+      "Well-known for producing high-quality tea in a refreshing environment.",
+      "Offers peaceful walks through narrow paths between tea bushes.",
+      "Best experienced during the early morning or late afternoon.",
+      "Provides insight into traditional tea cultivation and leaf collection.",
+      "Surrounded by small villages and rivers reflecting rural life.",
+      "Excellent spot for sunrise and misty weather photography.",
+      "Nearby viewpoints offer panoramic views of the estates.",
+      "Quiet surroundings ideal for nature exploration and relaxation."
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/pictures/coxbazar.jpg",
+    "title": "Sea Beach, Cox's Bazar",
+    "type": "Sea Beach",
+    "fun_activities": ["Beach walking", "Swimming", "Surfing", "Seafood tasting"],
+    "description": [
+      "World’s longest uninterrupted natural sea beach at 120km.",
+      "Features golden sands and stunning sunsets along the Bay of Bengal.",
+      "Popular for long beach walks, swimming, and shore relaxation.",
+      "Activities include surfing, speed boat rides, and wave watching.",
+      "Rich in hotels, resorts, and markets for local handicrafts.",
+      "Major food attraction: fresh grilled fish and prawns.",
+      "Close to scenic spots like Himchari and Inani Beach.",
+      "Attracts millions of solo travelers, couples, and families yearly.",
+      "A top-tier destination for both entertainment and relaxation."
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/pictures/tanguar.jpg",
+    "title": "Haor, Tanguar",
+    "type": "Wetland / Haor",
+    "fun_activities": ["Boat riding", "Bird watching", "Fishing", "Nature exploration"],
+    "description": [
+      "Vast wetland ecosystem located in the Sunamganj district.",
+      "Transforms into a massive water body during the monsoon season.",
+      "Explored mainly by boat to see floating villages and water plants.",
+      "Winter sanctuary for thousands of migratory bird species.",
+      "Offers houseboats for staying and experiencing the haor lifestyle.",
+      "Popular for fishing, sunset viewing, and nature photography.",
+      "Provides a calm escape from the busy pace of city life.",
+      "Ideal for wildlife enthusiasts and slow-paced travelers."
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/pictures/bisnakandi_0.webp",
+    "title": "Bichanakandi, Sylhet",
+    "type": "River & Stone Valley",
+    "fun_activities": ["Stone collecting", "River bathing", "Photography", "Hiking"],
+    "description": [
+      "Known for clear river water and stone-filled riverbeds in Sylhet.",
+      "Water flows from Indian hills, creating a year-round natural stream.",
+      "Visitors enjoy walking on smooth stones and river bathing.",
+      "Highly scenic during the monsoon with hills and cloudy skies.",
+      "Small boats available for exploring the river and nearby spots.",
+      "Quiet environment suitable for peaceful day trips.",
+      "Features the soothing sound of flowing mountain water.",
+      "A memorable destination for tourists of all age groups."
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/pictures/sundarbans-deer-secondary-768-o.jpg",
+    "title": "Mangrove Forest, Sundarbans",
+    "type": "Mangrove Forest",
+    "fun_activities": ["Wildlife safari", "Boat cruising", "Bird watching", "Photography"],
+    "description": [
+      "World’s largest mangrove forest and a UNESCO World Heritage Site.",
+      "Famous for its unique ecosystem and rich coastal biodiversity.",
+      "Home to Royal Bengal Tigers, spotted deer, and crocodiles.",
+      "Explored by boat through narrow rivers and dense green canals.",
+      "Offers thrilling wildlife safaris and early morning bird watching.",
+      "Natural sounds and silent forest paths create a peaceful experience.",
+      "Crucial for protecting coastal regions from erosion and cyclones.",
+      "Perfect for adventure seekers and nature conservationists."
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/pictures/paharpur-1200-600.jpg",
+    "title": "Paharpur, Naogaon",
+    "type": "Historical Site",
+    "fun_activities": ["Historical exploration", "Photography", "Learning heritage"],
+    "description": [
+      "Site of the 8th-century Somapura Mahavihara Buddhist monastery.",
+      "One of the largest ancient learning centers in South Asia.",
+      "Features impressive brick structures and detailed terracotta artwork.",
+      "Ruins showcase a unique and influential architectural design.",
+      "On-site museum displays ancient sculptures and artifacts.",
+      "Provides a valuable educational experience for history lovers.",
+      "Peaceful atmosphere perfect for cultural photography.",
+      "Highlight of Bangladesh's rich archaeological and cultural heritage."
+    ]
+  }
+]

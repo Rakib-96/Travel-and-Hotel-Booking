@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Hotel Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="shortcut icon" href="/pictures/fab.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/boking.css">
+</head>
+<body>
+    <!-- Heade..navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="/pictures/logo.jpg" width="200px" alt="logo">
+    </div>
+    <nav>
+      <a href="index.html" >Home</a>
+      <a href="#boking"class="active">Book hotel</a>
+      <a href="#contuct_us">Contact us</a>
+      <div class="auth-nav" id="authNav"></div>
+
+    </nav>
+  </header>
+
+  <div class="booking-container">
+    <h2>Hotel Booking Form</h2>
+    <form id="bookingForm">
+      <label for="hotelName">Hotel Name:</label>
+      <input type="text" id="hotelName" name="hotelName" readonly>
+
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+      <label for="phone">Phone number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number:" required>
+
+  <label class="title">Room Type:</label>
+  <div class="select-box">
+    <select>
+      <option selected disabled>Please select:</option>
+      <option>Single Room</option>
+      <option>Double Room</option>
+      <option>Deluxe Room</option>
+    </select>
+  </div>
+  <label for="no">No of Room:</label>
+      <input type="number" id="no" name="no" placeholder="Enter no of Room:" required>
+        <label for="time">How many night?</label>
+      <input type="number" id="time" name="time" placeholder="Number of night:" required>
+    <label class="title">Additional Services:</label>
+      <div class="checkbox-group">
+        
+        <label class="checkbox green">
+          <input type="checkbox">
+          <span></span>
+          Airport transfer
+        </label>
+
+        <label class="checkbox green">
+          <input type="checkbox" checked>
+          <span></span>
+          Breakfast
+        </label>
+
+        <label class="checkbox green">
+          <input type="checkbox" checked>
+          <span></span>
+          Lunch
+        </label>
+
+        <label class="checkbox green">
+          <input type="checkbox" checked>
+          <span></span>
+          Dinner
+        </label>
+
+        <label class="checkbox green">
+          <input type="checkbox">
+          <span></span>
+          Laundry service
+        </label>
+
+        <label class="checkbox green">
+          <input type="checkbox">
+          <span></span>
+          Spa package
+        </label>
+        
+      </div>
+
+      <label for="checkIn">Check-in Date:</label>
+      <input type="date" id="checkIn" name="checkIn" required>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </div>
+
+  
+<!-- Footer -->
+<div class="footer-wrapper">
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div>
+        <div class="logo">
+          <img src="/pictures/logo.jpg" width = "200px" alt="logo">
+        </div>
+        <p>Best Travel Partner in Bangladesh.</p>
+      </div>
+
+      <div>
+        <h4>Info</h4>
+        <a href="#">Services</a>
+        <a href="#">Pricing</a>
+        <a href="#">Community</a>
+      </div>
+
+      <div>
+        <h4>Social</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+
+      <div id="contuct_us">
+        <h4>Contuct Us</h4>
+        <p>Call : 01234567890</p>
+        <p>Email : travel&hotelboking@gmail.com</p>
+        
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="footer-bottom">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="copyright">
+        © Copyright. All rights reserved
+      </div>
+    </div>
+
+  </footer>
+</div>
+
+<!--Profile -->
+<div id="profileModal" class="modal">
+  <div class="modal-content profile-popup-content">
+    <span class="close-profile">&times;</span>
+    <div class="profile-card">
+      <button id="editProfileBtn" class="edit-btn">
+        <i class="fas fa-edit"></i> Edit
+      </button>
+
+      <div class="profile-image">
+        <img id="profilePic" alt="Profile Picture">
+      </div>
+
+      <h2 id="profileName"></h2>
+      <p class="username">@<span id="profileUsername"></span></p>
+
+      <div id="profileInfoDisplay" class="profile-info">
+        </div>
+
+      <div class="profile-actions">
+        <button class="logout-btn" onclick="logoutUser()">Logout</button>
+        <button class="home-btn" id="closeProfileBtn">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="JS/boking.js"></script>
+<script src="JS/script.js"></script>
+</body>
+</html>
