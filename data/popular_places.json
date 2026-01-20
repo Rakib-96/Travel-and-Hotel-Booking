@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/pictures/sajek.jpg",
+    "image": "pictures/sajek.jpg",
     "title": "Shajek Valley, Shajek",
     "type": "Hill Station",
     "fun_activities": ["Hill trekking", "Photography", "Sunset viewing", "Camping"],
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "/pictures/Sylet.jpg",
+    "image": "pictures/Sylet.jpg",
     "title": "Tea Garden, Sunamganj, Sylhet",
     "type": "Tea Garden",
     "fun_activities": ["Tea garden walk", "Nature photography", "Village exploration"],
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "/pictures/coxbazar.jpg",
+    "image": "pictures/coxbazar.jpg",
     "title": "Sea Beach, Cox's Bazar",
     "type": "Sea Beach",
     "fun_activities": ["Beach walking", "Swimming", "Surfing", "Seafood tasting"],
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "/pictures/tanguar.jpg",
+    "image": "pictures/tanguar.jpg",
     "title": "Haor, Tanguar",
     "type": "Wetland / Haor",
     "fun_activities": ["Boat riding", "Bird watching", "Fishing", "Nature exploration"],
@@ -72,7 +72,7 @@
   },
   {
     "id": 5,
-    "image": "/pictures/bisnakandi_0.webp",
+    "image": "pictures/bisnakandi_0.webp",
     "title": "Bichanakandi, Sylhet",
     "type": "River & Stone Valley",
     "fun_activities": ["Stone collecting", "River bathing", "Photography", "Hiking"],
@@ -89,7 +89,7 @@
   },
   {
     "id": 6,
-    "image": "/pictures/sundarbans-deer-secondary-768-o.jpg",
+    "image": "pictures/sundarbans-deer-secondary-768-o.jpg",
     "title": "Mangrove Forest, Sundarbans",
     "type": "Mangrove Forest",
     "fun_activities": ["Wildlife safari", "Boat cruising", "Bird watching", "Photography"],
@@ -106,7 +106,7 @@
   },
   {
     "id": 7,
-    "image": "/pictures/paharpur-1200-600.jpg",
+    "image": "pictures/paharpur-1200-600.jpg",
     "title": "Paharpur, Naogaon",
     "type": "Historical Site",
     "fun_activities": ["Historical exploration", "Photography", "Learning heritage"],
