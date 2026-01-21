@@ -34,10 +34,13 @@ function renderAuthNav(){
   }
 }
 
-// Logout 
-function logoutUser(){
+function logoutUser() {
   localStorage.removeItem("loggedUser");
   renderAuthNav(); 
+  const modal = document.getElementById("profileModal");
+  if (modal) {
+    modal.style.display = "none";
+  }
 }
 
 document.addEventListener("DOMContentLoaded", renderAuthNav);
@@ -272,14 +275,7 @@ document.getElementById("editProfileBtn").addEventListener("click", function() {
     renderAuthNav(); 
   }
 });
-function logoutUser() {
-  localStorage.removeItem("loggedUser");
-  renderAuthNav(); 
-  const modal = document.getElementById("profileModal");
-  if (modal) {
-    modal.style.display = "none";
-  }
-}
+
 
 document.querySelector(".close-profile").onclick = () => document.getElementById("profileModal").style.display = "none";
 document.getElementById("closeProfileBtn").onclick = () => document.getElementById("profileModal").style.display = "none";
